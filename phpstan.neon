@@ -1,0 +1,12 @@
+parameters:
+	phpVersion: 80410
+	level: 8
+	treatPhpDocTypesAsCertain:    false
+	paths:
+		- Aurora
+	ignoreErrors:
+	    - identifier:    missingType.iterableValue
+	parallel:
+		maximumNumberOfProcesses: 1
+
+
